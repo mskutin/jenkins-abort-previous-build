@@ -1,0 +1,1 @@
+Basic Shared Library to abort old builds
