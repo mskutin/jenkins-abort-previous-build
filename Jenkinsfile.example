@@ -1,0 +1,5 @@
+@Library('librayName')
+def pipeline = new killOldBuilds()
+[...] 
+stage 'purge'
+pipeline.killOldBuilds()
